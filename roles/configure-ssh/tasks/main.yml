@@ -1,0 +1,7 @@
+---
+- name: "Copying SSH Config"
+  copy:
+    src: "{{ role_path }}/files/sshd_config"
+    dest: "/etc/ssh/sshd_config"
+  become: true
+  become_method: sudo

@@ -5,5 +5,6 @@
   roles:
     - role: "roles/install-tools"
     - role: "roles/configure-tmux"
+    - role: "roles/configure-ssh"
     - role: "roles/customize-terminal"
     - role: "roles/customize-browser"
