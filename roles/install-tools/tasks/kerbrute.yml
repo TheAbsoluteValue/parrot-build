@@ -1,4 +1,4 @@
 ---
-- name: "install Kerbrute"
+- name: "Install Kerbrute"
   shell: go install github.com/ropnop/kerbrute@master
 

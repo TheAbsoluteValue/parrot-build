@@ -17,6 +17,7 @@
       - ntpdate
       - flameshot
       - exiftool
+      - bashfuscator
     state: latest
   become: true
   become_method: sudo

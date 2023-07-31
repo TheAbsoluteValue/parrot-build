@@ -1,0 +1,4 @@
+---
+- name: "Install gef"
+  shell: "{{ role_path }}/files/gef.sh"
+
