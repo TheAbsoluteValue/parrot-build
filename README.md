@@ -32,5 +32,11 @@ git clone the repo and run:
 ansible-playbook main.yml
 ```
 
+## Notes
+Gdb was not automatically installed for me.
+For some reason, I had to install a different version of libelf1 to be 0.183-1 in order to install gdb.
+
+Command to fix: `sudo apt install libelf1=0.183-1 && sudo apt install gdb`
+
 ## TODO
-Install gef for gdb, pwntools, Ghidra.
+Install pwntools, Ghidra, logging capabilities.

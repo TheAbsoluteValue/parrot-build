@@ -5,3 +5,10 @@
     dest: "/etc/ssh/sshd_config"
   become: true
   become_method: sudo
+
+- name: "Enable SSH Service"
+  ansible.builtin.service:
+    name: ssh
+    enabled: yes
+  become: true
+  become_method: sudo
